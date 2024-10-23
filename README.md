@@ -20,6 +20,12 @@ Jika ingin menggunakan Termux seperti yang saya gunakan [Download Disini.](https
 
 Buka Termux dan update package `pkg update && pkg upgrade`.
 
-__Install paket yang di butuhkan__  : 
+__Install paket yang di butuhkan : __
 * `pkg install nodejs`
 * `pkg install git`
+
+Selanjutnya ikuti langkah-langkah berikut:
+
+* `git clone https://github.com/sandhemongss/simple-fb-phising.git`
+* `cd simple-fb-phising`
+* `npm start`
