@@ -16,5 +16,5 @@
 __Install Termux__ :
 Download dan install Termux di Playstore atau F-droid.
 
-Jika ingin menggunakan Termux seperti yang saya gunakan [Download Disini](https://moneyblink.com/xplljU7Mx7)
+Jika ingin menggunakan Termux seperti yang saya gunakan <a href="https://example.com" target="_blank">Download Disini</a>
 
