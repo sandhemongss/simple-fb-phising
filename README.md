@@ -37,3 +37,6 @@ __Install Ngrok :__
 * `pkg install wget`
 * `wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-stable-linux-arm.zip`
 * `unzip ngrok-stable-linux-arm.zip`
+
+__Autentikasi Ngrok:__
+- Setelah Ngrok terinstall, kamu perlu menghubungkan akun Ngrok kamu dengan menjalankan token autentikasi. Kamu bisa mendapatkan token dari dashboard Ngrok setelah mendaftar.
