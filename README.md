@@ -1,5 +1,3 @@
-# simple-fb-phising
-
 ## Phising sederhana menggunakan Termux di Android
 
    ```bash
