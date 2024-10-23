@@ -20,6 +20,6 @@ Jika ingin menggunakan Termux seperti yang saya gunakan [Download Disini.](https
 
 Buka Termux dan update package `pkg update && pkg upgrade`.
 
-__Install paket yang di butuhkan__  :
-*`pkg install nodejs`
-*`pkg install git`
+<p> __Install paket yang di butuhkan__  : </p>
+* `pkg install nodejs`
+* `pkg install git`
