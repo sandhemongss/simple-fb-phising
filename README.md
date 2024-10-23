@@ -57,7 +57,7 @@ unzip ngrok-stable-linux-arm.zip
 ```
 
 __Autentikasi Ngrok:__
-- Setelah Ngrok terinstall, kamu perlu menghubungkan akun Ngrok kamu dengan menjalankan token autentikasi. Kamu bisa mendapatkan token dari [dashboard Ngrok](https://ngrok.com/) setelah mendaftar.
+- Setelah Ngrok terinstall, kamu perlu menghubungkan akun Ngrok kamu dengan menjalankan token autentikasi `./ngrok authtoken <YOUR_AUTH_TOKEN>`. Kamu bisa mendapatkan token dari [dashboard Ngrok](https://ngrok.com/) setelah mendaftar.
 
 - Saya anggap Ngrok sudah berhasil di install, jika sudah buka Termux lagi dan jalankan perintah `./ngrok http 5000`. Ngrok akan menampilkan URL publik yang bisa diakses secara online, misalnya `https://6ehhdj3773u3ujrn.ngrok.io` Salin URL ini lalu share ENJOYY.
 
