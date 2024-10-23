@@ -62,3 +62,7 @@ __Autentikasi Ngrok:__
 - Saya anggap Ngrok sudah berhasil di install, jika sudah buka Termux lagi dan jalankan perintah `./ngrok http 5000`. Ngrok akan menampilkan URL publik yang bisa diakses secara online, misalnya `https://6ehhdj3773u3ujrn.ngrok.io` Salin URL ini lalu share ENJOYY.
 
 - Jika ada yang login melalui link yang kamu bagikan, Email dan Password akan muncul di dalam file `result.txt` yang berada di dalam folder chace.
+
+
+## WARNING : 
+***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
