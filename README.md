@@ -29,7 +29,7 @@ __Selanjutnya ikuti langkah-langkah berikut :__
 * `cd simple-fb-phising`
 * `npm start`
 
-Lalu buka Browser/Chrome dan ketik url `http://localhost:5000` jika semua langkah di atas benar seharusnya halaman login palsu Facebook sudah muncul di server lokal kita. Selanjutnya tinggal bagaimana server lokal kita bisa di akses secara online oleh orang lain, disini saya contohkan menggunakan Ngrok.
+- Lalu buka Browser/Chrome dan ketik URL `http://localhost:5000` jika semua langkah di atas benar seharusnya halaman login palsu Facebook sudah muncul di server lokal kita. Selanjutnya tinggal bagaimana server lokal kita bisa di akses secara online oleh orang lain, disini saya contohkan menggunakan Ngrok.
 
 __Install Ngrok :__
 * `pkg update && pkg upgrade`
@@ -40,4 +40,4 @@ __Install Ngrok :__
 __Autentikasi Ngrok:__
 - Setelah Ngrok terinstall, kamu perlu menghubungkan akun Ngrok kamu dengan menjalankan token autentikasi. Kamu bisa mendapatkan token dari [dashboard Ngrok](https://ngrok.com/) setelah mendaftar.
 
-- Jika Ngrok sudah berhasil di install, buka Termux lagi dan jalankan Ngrok `./ngrok http 5000`. Ngrok akan menampilkan URL publik yang bisa diakses secara online, misalnya https://random-string.ngrok.io. Salin URL ini lalu share ENJOYY.
+- Jika Ngrok sudah berhasil di install, buka Termux lagi dan jalankan perintah `./ngrok http 5000`. Ngrok akan menampilkan URL publik yang bisa diakses secara online, misalnya `https://random-string.ngrok.io` Salin URL ini lalu share ENJOYY.
