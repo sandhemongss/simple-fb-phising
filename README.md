@@ -32,7 +32,9 @@ __Selanjutnya ikuti langkah-langkah berikut :__
 - Lalu buka Browser/Chrome dan ketik URL `http://localhost:5000` jika semua langkah di atas benar seharusnya halaman login palsu Facebook sudah muncul di server lokal kita. Selanjutnya tinggal bagaimana server lokal kita bisa di akses secara online oleh orang lain, disini saya contohkan menggunakan Ngrok.
 
 __Install Ngrok :__
-* ```pkg update && pkg upgrade```
+``` bash
+pkg update && pkg upgrade
+```
 * `pkg install wget`
 * `wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-stable-linux-arm.zip`
 * `unzip ngrok-stable-linux-arm.zip`
