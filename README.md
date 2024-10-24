@@ -80,7 +80,7 @@ pkg install vim
 ```bash
 vim chace/result.txt
 ```
-- `:q!` Keluar dari program vim
+`:q!` Keluar dari program Vim.
 
 
 ## WARNING : 
