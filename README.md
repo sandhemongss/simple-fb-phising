@@ -69,7 +69,7 @@ __Autentikasi Ngrok:__
 - Jika ada yang login melalui link yang kamu bagikan, Email dan Password akan muncul di dalam file `result.txt` yang berada di dalam folder chace.
 
 __Melihat hasil login yang Terekam:__
-- Untuk melihat hasil login (email dan password) di dalam file `result.txt` pastikan kamu sudah berada di dalam direktori `simple-fb-phising`.
+- Untuk melihat hasil login (email dan password) pastikan kamu berada di dalam direktori `simple-fb-phising`.
 ```bash 
 cd
 ```
