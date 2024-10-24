@@ -29,8 +29,7 @@ pkg install nodejs
 pkg install git
 ```
 
-## Langkah-Langkah Menjalankan Phishing
-
+__Selanjutnya ikuti langkah-langkah berikut :__
 ```bash
 git clone https://github.com/sandhemongss/simple-fb-phising.git
 ```
