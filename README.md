@@ -42,7 +42,7 @@ npm start
 Lalu buka Browser/Chrome dan ketik URL `http://localhost:5000` jika semua langkah di atas benar seharusnya halaman login palsu Facebook sudah muncul di server lokal kita. Selanjutnya tinggal bagaimana server lokal kita bisa di akses secara online oleh orang lain, disini saya contohkan menggunakan Ngrok.
 
 __Install Ngrok :__
-- Kembali ke Termux lagi dan buka Sesi baru di Termux
+- Kembali ke Termux lagi dan buka Sesi baru di Termux.
 
 ```bash
 pkg update && pkg upgrade
@@ -68,7 +68,7 @@ __Autentikasi Ngrok:__
 - Jika ada yang login melalui link yang kamu bagikan, Email dan Password akan muncul di dalam file `result.txt` yang berada di dalam folder chace.
 
 __Melihat Email/Password :__
-- Untuk melihat Email dan Password di dalam file `result.txt` pastikan kamu sudah berada di dalam direktori `simple-fb-phising`
+- Untuk melihat Email dan Password di dalam file `result.txt` pastikan kamu sudah berada di dalam direktori `simple-fb-phising`.
 ```bash 
 cd
 ```
