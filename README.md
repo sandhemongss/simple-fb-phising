@@ -43,6 +43,9 @@ Lalu buka Browser/Chrome dan ketik URL `http://localhost:5000` jika semua langka
 
 __Install Ngrok :__
 ```bash
+cd 
+```
+```bash
 pkg update && pkg upgrade
 ```
 ```bash
