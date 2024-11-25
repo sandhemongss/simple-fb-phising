@@ -1,17 +1,30 @@
 {
-  "name": "fb2.0.0",
+  "name": "fbpro",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app",
-    "build:css": "tailwindcss -i ./src/tailwindcss/input.css -o ./public/css/styles.css --minify",
-    "watch:css": "tailwindcss -i ./src/tailwindcss/input.css -o ./public/css/styles.css --watch"
+    "start": "node src/app",
+    "dev": "nodemon src/app",
+    "watchidx": "tailwindcss -i ./src/css/input.css -o ./public/css/styles.css --watch",
+    "saveidx": "tailwindcss -i ./src/css/input.css -o ./public/css/styles.css --minify",
+    "watchpnl": "tailwindcss -i ./src/css/input.css -o ./public/css/panel.css --watch",
+    "savepnl": "tailwindcss -i ./src/css/input.css -o ./public/css/panel.css --minify",
+    "watchlogad": "tailwindcss -i ./src/css/input.css -o ./public/css/login-admin.css --watch",
+    "savelogad": "tailwindcss -i ./src/css/input.css -o ./public/css/login-admin.css --minify",
+    "watch404": "tailwindcss -i ./src/css/input.css -o ./public/css/404.css --watch",
+    "save404": "tailwindcss -i ./src/css/input.css -o ./public/css/404.css --minify"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "device-detector-js": "^3.0.3",
+    "express": "^4.21.1",
+    "express-session": "^1.18.1",
+    "nodemon": "^3.1.7",
+    "ua-parser-js": "^2.0.0"
   }
 }

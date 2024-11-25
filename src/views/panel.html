@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel</title>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <link rel="stylesheet" href="/css/panel.css">
+  <script src="/js/panel.js"></script>
+  <style>
+    @media (max-width: 640px) {
+      table {
+        font-size: 0.75rem; /* Mengecilkan ukuran font di layar kecil */
+      }
+      th, td {
+        padding: 0.5rem; /* Mengurangi padding */
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <div class="container mx-auto w-full">
+    <div class="mx-auto min-w-max p-4">
+      <h1 class="text-2xl font-bold mb-4">Users</h1>
+    
+    <table id="userTable" class="w-full bg-white border border-gray-200 shadow-md sm:text-xs">
+      <thead>
+        <tr class="bg-gray-100">
+          <th class="border border-gray-300 px-4 py-2 text-center text-gray-600">Email</th>
+          <th class="border border-gray-300 px-4 py-2 text-center text-gray-600">Password</th>
+          <th class="border border-gray-300 px-4 py-2 text-center text-gray-600">Date</th>
+          <th class="border border-gray-300 px-4 py-2 text-center text-gray-600">Device</th>
+          <th class="border border-gray-300 px-4 py-2 text-center text-gray-600">IP</th>
+        </tr>
+      </thead>
+      <!-- Data akan di isi dari javascript -->
+    </table>
+    </div>
+  </div>
+</body>
+</html>
